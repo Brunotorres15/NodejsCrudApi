@@ -6,7 +6,7 @@ import { JogadorSchema } from './interfaces/jogador.schema';
 
 
 @Module({
-  // com o forFeature o nest vai registrar esse schema dentro do escopo desse module jogadores
+
   imports: [ MongooseModule.forFeature([{name: 'Jogador', schema: JogadorSchema}]) ],
   controllers: [JogadoresController],
   providers: [JogadoresService]
