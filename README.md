@@ -51,7 +51,7 @@ The project was made using mongoose to model the application data, so you also n
 ```bash
 $ npm install --save @nestjs/mongoose mongoose
 ```
-### Discalimer
+### Disclaimer
 - The connection with de database was made using a MongoDB Cluster so make sure to put your own connection access.
 - The Requests were made using Insomnia.
 
