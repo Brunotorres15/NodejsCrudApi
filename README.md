@@ -1,3 +1,5 @@
+# Backend Project Using NestJS
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
@@ -22,15 +24,37 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+
+
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## A Complete CRUD API Made with Nodejs - Typescript - Nestjs - MongoDB Atlas
+
+The objective of this project was to develop a simple CRUD API for a Ranking System for players.
+
+- You can list all players.
+- You can list a specific player by his email.
+- You can updade a player's information.
+- You can delete a player.
+
+- All the Data was stored using MongoDB Atlas.
 
 ## Installation
+You need Nestjs to run the project
 
 ```bash
-$ npm install
+$ npm i -g @nestjs/cli
 ```
+also make sure that Node.js (>= 10.13.0, except for v13) is installed on your operating system.
+
+The project was made using mongoose to model the application data, so you also need to install it.
+```bash
+$ npm install --save @nestjs/mongoose mongoose
+```
+### Discalimer
+- The connection with de database was made using a MongoDB Cluster so make sure to put your own connection access.
+- The Requests were made using Insomnia.
+
 
 ## Running the app
 
@@ -61,12 +85,6 @@ $ npm run test:cov
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
